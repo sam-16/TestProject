@@ -26,7 +26,7 @@
   </div>
 </nav>
 <div>
-	<h2 id="company">Welcome To Infogenie</h2>
+	<h2 id="company">Welcome To Infogenie App</h2>
 </div>
 </body>
 </html>
