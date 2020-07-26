@@ -15,6 +15,18 @@
 <link rel="stylesheet" href="../css/font-awesome.css">
 </head>
 <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/infogenie/user/home">Infogenie</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/infogenie/user/home">Home</a></li>
+      <li><a href="/infogenie/user/accountDetails">Account Details</a></li>
+      <li><a href="/infogenie/user/contactDetails">Contact Details</a></li>
+    </ul>
+  </div>
+</nav>
 <h3 class="maintitle"><b>IG Contact List</b></h3>
 <div class="container" id="maindiv">
 	<hr class="hrcss">
@@ -23,51 +35,14 @@
 			<h4 id="heading"></h4>
 		</div>
 		<div class="col-md-6 col-sm-6 btndiv">
-			<input type="text" placeholder="Search by name, job title">
+			<input type="text" placeholder="Search by name, job title" id="searchInput">
 			<span class="glyphicon glyphicon-filter"></span>
 			<button type="button" class="btn feddbtn">Feedback</button>
 		</div>
 	</div>
 	
-	<div class="row mainrow">
-		
-	</div>
-	
-	<!-- <div class="row mainrow">
-		<div class="col-md-4 col-sm-4 firstdiv">
-			<div class="col-md-4 col-sm-4">
-				<img src="../images/contact.png" />
-			</div>
-			<div class="col-md-8 col-sm-8">
-				<p>Carsten Klein</p>
-				<p><i class='fas fa-archive'></i>Senior Infrastructure Specialist</p>
-				<p><i class="glyphicon glyphicon-envelope"></i> ---</p>
-				<p><i class="glyphicon glyphicon-earphone"></i> +1215-674-6000</p>
-			</div>	
-		</div>
-		<div class="col-md-4 col-sm-4 firstdiv">
-			<div class="col-md-4 col-sm-4">
-				<img src="../images/contact.png" />
-			</div>
-			<div class="col-md-8 col-sm-8">
-				<p>Carsten Klein</p>
-				<p><i class='fas fa-archive'></i>Senior Infrastructure Specialist</p>
-				<p><a href=""><i class="fa fa-lock" aria-hidden="true"></i>   Reveal</a></p>
-			</div>	
-		</div>
-		<div class="col-md-4 col-sm-4 firstdiv">
-			<div class="col-md-4 col-sm-4">
-				<img src="../images/contact.png" />
-			</div>
-			<div class="col-md-8 col-sm-8">
-				<p>Carsten Klein</p>
-				<p><i class='fas fa-archive'></i>Senior Infrastructure Specialist</p>
-				<p><a href=""><i class="fa fa-lock" aria-hidden="true"></i>   Reveal</a></p>
-			</div>	
-		</div>
-	</div> -->
-	
+	<div class="row mainrow"></div>
+	<div class="pagination pull-right"></div>
 </div>
-<!-- Name is : <h3 id="name"></h3> -->
 </body>
 </html>

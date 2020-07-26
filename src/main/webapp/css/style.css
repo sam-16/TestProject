@@ -1,3 +1,14 @@
+.navbar-brand {
+	color: white!important;
+    font-size: 31px;
+    font-weight: bold;
+}
+#company {
+	text-align: center;
+    font-size: 5em;
+    color: cadetblue;
+    padding-top: 10%;
+}
 .hrcss {
 	height: 2px;
     background-color: #e17045;
@@ -23,20 +34,21 @@
 	width: 31%;
     margin: 10px;
     padding: 0;
-    height: 135px;
+    height: 100px;
 }
-#maindiv .mainrow .firstdiv .col-md-4 img {
+#maindiv .mainrow .firstdiv .col-md-2 img {
 	width: 100%;
     margin-top: 10px;
 }
-#maindiv .mainrow .firstdiv .col-md-8 p {
+#maindiv .mainrow .firstdiv .col-md-10 p {
     font-size: 12px;
+    line-height: 0.7;
 }
-#maindiv .mainrow .firstdiv .col-md-8 p:first-child {
-	font-size: 18px;
+#maindiv .mainrow .firstdiv .col-md-10 p:first-child {
+	font-size: 16px;
     padding-top: 10px;
 }
-#maindiv .mainrow .firstdiv .col-md-8 a {
+#maindiv .mainrow .firstdiv .col-md-10 a {
 	font-size: 12px;
     font-weight: bold;
 }

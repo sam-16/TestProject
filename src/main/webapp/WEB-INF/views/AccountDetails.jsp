@@ -15,7 +15,19 @@
 <link rel="stylesheet" href="../css/font-awesome.css">
 </head>
 <body>
-<h3 class="maintitle"><b>IG Contact List</b></h3>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/infogenie/user/home">Infogenie</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/infogenie/user/home">Home</a></li>
+      <li><a href="/infogenie/user/accountDetails">Account Details</a></li>
+      <li><a href="/infogenie/user/contactDetails">Contact Details</a></li>
+    </ul>
+  </div>
+</nav>
+<h3 class="maintitle"><b>IG Account Details</b></h3>
 <div class="container" id="maindiv">
 	<hr class="hrcss">
 	<div class="row headrow">
